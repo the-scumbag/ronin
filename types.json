@@ -1,0 +1,18 @@
+{
+  "Ability": {
+    "agility": "Ability.Speed",
+    "presence": "Ability.Spirit",
+    "strength": "Ability.Vigor",
+    "toughness": "Ability.Resilience"
+  },
+  "ArmorTier": {
+    "light": "ArmorTier.Light",
+    "medium": "ArmorTier.Medium",
+    "heavy": "ArmorTier.Heavy"
+  },
+  "ItemType": {
+    "equipment": "ItemType.Equipment",
+    "weapon": "ItemType.Weapon",
+    "armor": "ItemType.Armor"
+  }
+}

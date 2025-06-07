@@ -1,0 +1,13 @@
+{
+  "Entity.Monster": "Monster",
+  "Entity.Monster.many": "Monsters",
+  "Entity.Item": "Item",
+  "Entity.Item.many": "Items",
+  "Entity.Class": "Class",
+  "Entity.Class.many": "Classes",
+  "Entity.Hero": "Heroes",
+  "Entity.Hero.many": "Heroes",
+  "ItemType.Equipment": "Equipment",
+  "ItemType.Weapon": "Weapon",
+  "ItemType.Armor": "Armor"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Class",
+  "sections": [
+    {
+      "title": "Subtitle",
+      "type": "group",
+      "fields": [
+        {
+          "type": "textArea",
+          "attribute": "data.subtitle"
+        }
+      ]
+    },
+    {
+      "title": "Features",
+      "type": "list",
+      "attribute": "data.features",
+      "form": {
+        "title": "Feature",
+        "sections": [
+          {
+            "type": "group",
+            "fields": [
+              {
+                "placeholder": "Name",
+                "attribute": "name"
+              },
+              {
+                "title": "Text",
+                "type": "textArea",
+                "attribute": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

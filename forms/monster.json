@@ -1,0 +1,70 @@
+{
+  "title": "Monster",
+  "entity": "Monster",
+  "sections": [
+    {
+      "title": "Subtitle",
+      "type": "group",
+      "fields": [
+        {
+          "type": "textArea",
+          "attribute": "data.subtitle"
+        }
+      ]
+    },
+    {
+      "title": "Stats",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Hit Points",
+          "type": "number",
+          "attribute": "data.hp"
+        },
+        {
+          "title": "Morale",
+          "type": "number",
+          "attribute": "data.hp"
+        }
+      ]
+    },
+    {
+      "title": "Armor",
+      "type": "group",
+      "fields": [
+        {
+          "placeholder": "Name",
+          "attribute": "data.armor.name"
+        },
+        {
+          "placeholder": "Value",
+          "attribute": "data.armor.value"
+        }
+      ]
+    },
+    {
+      "title": "Actions",
+      "type": "list",
+      "attribute": "data.actions",
+      "form": {
+        "title": "Action",
+        "sections": [
+          {
+            "type": "group",
+            "fields": [
+              {
+                "placeholder": "Name",
+                "attribute": "name"
+              },
+              {
+                "title": "Text",
+                "type": "textArea",
+                "attribute": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

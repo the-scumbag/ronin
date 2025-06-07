@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Katana",
+    "type": "item",
+    "subtype": "weapon",
+    "damage": "d8",
+    "description": "A curved, single-edged blade wielded by samurai."
+  },
+  {
+    "name": "Fine Katana",
+    "type": "item",
+    "subtype": "weapon",
+    "damage": "d10",
+    "description": "A masterwork katana, finely balanced and deadly."
+  },
+  {
+    "name": "Odachi",
+    "type": "item",
+    "subtype": "weapon",
+    "damage": "d12",
+    "description": "A large greatsword, used with two hands. Devastating but unwieldy."
+  },
+  {
+    "name": "Wakizashi",
+    "type": "item",
+    "subtype": "weapon",
+    "damage": "d6",
+    "description": "A short companion sword, often worn by samurai."
+  },
+  {
+    "name": "Tanegashima",
+    "type": "item",
+    "subtype": "weapon",
+    "damage": "d8",
+    "description": "A matchlock firearm. Slow to reload but powerful."
+  },
+  {
+    "name": "Tanto",
+    "type": "item",
+    "subtype": "weapon",
+    "damage": "d4",
+    "description": "A small dagger for close combat and quick strikes."
+  },
+  {
+    "name": "Kusarigama",
+    "type": "item",
+    "subtype": "weapon",
+    "damage": "d6",
+    "description": "A chain-sickle used by shinobi for mid-range control."
+  },
+  {
+    "name": "Brass Knuckles",
+    "type": "item",
+    "subtype": "weapon",
+    "damage": "d4",
+    "description": "Used to enhance unarmed strikes."
+  },
+  {
+    "name": "Bo Staff",
+    "type": "item",
+    "subtype": "weapon",
+    "damage": "d6",
+    "description": "A simple but effective wooden staff."
+  },
+  {
+    "name": "Iron Club",
+    "type": "item",
+    "subtype": "weapon",
+    "damage": "d10",
+    "description": "Heavy, brutal, and effective at crushing foes."
+  },
+  {
+    "name": "Shuriken",
+    "type": "item",
+    "subtype": "weapon",
+    "damage": "d4",
+    "description": "Throwing stars used for silent ranged attacks."
+  },
+  {
+    "name": "Kiseru",
+    "type": "item",
+    "subtype": "weapon",
+    "damage": "d4",
+    "description": "A smoking pipe that doubles as a blunt weapon."
+  },
+  {
+    "name": "Light Armor",
+    "type": "item",
+    "subtype": "armor",
+    "dr": 1,
+    "description": "Padded or reinforced clothing offering basic protection."
+  },
+  {
+    "name": "Medium Armor",
+    "type": "item",
+    "subtype": "armor",
+    "dr": 2,
+    "description": "Standard lamellar armor used by ashigaru and lower samurai."
+  },
+  {
+    "name": "Heavy Armor",
+    "type": "item",
+    "subtype": "armor",
+    "dr": 3,
+    "description": "Full o-yoroi plate armor offering maximum protection."
+  },
+  {
+    "name": "Katana of the Shogun",
+    "type": "item",
+    "subtype": "treasure",
+    "value": 1000,
+    "description": "An ornate d12 katana said to have slain a hundred men."
+  },
+  {
+    "name": "Jade Dragon Figurine",
+    "type": "item",
+    "subtype": "treasure",
+    "value": 500,
+    "description": "A carved symbol of wisdom and strength."
+  },
+  {
+    "name": "Golden Lotus Blossom",
+    "type": "item",
+    "subtype": "treasure",
+    "value": 100,
+    "description": "A symbol of purity and wealth."
+  },
+  {
+    "name": "Pearl of Wisdom",
+    "type": "item",
+    "subtype": "treasure",
+    "value": 50,
+    "description": "Said to enhance spiritual insight when held."
+  },
+  {
+    "name": "Bloodstone Amulet",
+    "type": "item",
+    "subtype": "treasure",
+    "value": 150,
+    "description": "Believed to ward off evil spirits."
+  },
+  {
+    "name": "Vial of Ghostly Essence",
+    "type": "item",
+    "subtype": "consumable",
+    "effect": "Incorporeal for d4 rounds",
+    "description": "Become like mist to evade harm."
+  },
+  {
+    "name": "Bag of Vicious Ants",
+    "type": "item",
+    "subtype": "trap",
+    "effect": "Test Resilience DR10, d4 damage",
+    "description": "Can be unleashed in close combat or left as a trap."
+  },
+  {
+    "name": "Enchanted Rice",
+    "type": "item",
+    "subtype": "consumable",
+    "effect": "Feed 3 people once per day",
+    "description": "Magically replenishes itself daily."
+  },
+  {
+    "name": "Sake of Healing",
+    "type": "item",
+    "subtype": "consumable",
+    "effect": "d4 uses, heals d6 HP",
+    "description": "Restorative liquor blessed by monks."
+  }
+]

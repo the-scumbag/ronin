@@ -1,0 +1,242 @@
+{
+  "title": "Hero",
+  "sections": [
+    {
+      "title": "Class",
+      "fields": [
+        {
+          "title": "Class",
+          "text": "{{data.class}}",
+          "type": "form",
+          "form": {
+            "title": "Class",
+            "sections": [
+              {
+                "title": "Name",
+                "fields": [
+                  {
+                    "placeholder": "Class",
+                    "attribute": "data.class"
+                  }
+                ]
+              },
+              {
+                "title": "Description",
+                "fields": [
+                  {
+                    "title": "Text",
+                    "type": "textArea",
+                    "attribute": "data.classDescription"
+                  }
+                ]
+              },
+              {
+                "title": "Class Features",
+                "type": "list",
+                "attribute": "data.classFeatures",
+                "form": {
+                  "title": "Feature",
+                  "sections": [
+                    {
+                      "type": "group",
+                      "fields": [
+                        {
+                          "placeholder": "Name",
+                          "attribute": "name"
+                        },
+                        {
+                          "title": "Text",
+                          "type": "textArea",
+                          "attribute": "text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "title": "Reference",
+                "type": "group",
+                "fields": [
+                  {
+                    "title": "Reference",
+                    "type": "reference",
+                    "attribute": "classReference",
+                    "attributeType": "Item"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "title": "Abilities",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Swiftness",
+          "type": "number",
+          "attribute": "data.agility"
+        },
+        {
+          "title": "Spirit",
+          "type": "number",
+          "attribute": "data.presence"
+        },
+        {
+          "title": "Vigor",
+          "type": "number",
+          "attribute": "data.strength"
+        },
+        {
+          "title": "Resilience",
+          "type": "number",
+          "attribute": "data.toughness"
+        }
+      ]
+    },
+    {
+      "title": "Health",
+      "type": "group",
+      "fields": [
+        {
+          "title": "Current HP",
+          "type": "number",
+          "attribute": "data.hpCurrent"
+        },
+        {
+          "title": "Maximum HP",
+          "type": "number",
+          "attribute": "data.hpMaximum"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "fields": [
+        {
+          "title": "Virtues",
+          "type": "number",
+          "attribute": "data.omens"
+        },
+        {
+          "title": "Ryo",
+          "type": "number",
+          "attribute": "data.ryo"
+        }
+      ]
+    },
+    {
+      "title": "Powers",
+      "type": "list",
+      "attribute": "data.powers",
+      "form": {
+        "title": "Power",
+        "sections": [
+          {
+            "type": "group",
+            "fields": [
+              {
+                "placeholder": "Name",
+                "attribute": "name"
+              },
+              {
+                "placeholder": "Description",
+                "type": "textArea",
+                "attribute": "description"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "Weapons",
+      "type": "list",
+      "attribute": "data.weapons",
+      "form": {
+        "title": "Weapon",
+        "sections": [
+          {
+            "type": "group",
+            "fields": [
+              {
+                "placeholder": "Name",
+                "attribute": "name"
+              },
+              {
+                "placeholder": "Description",
+                "type": "textArea",
+                "attribute": "text"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "Armor",
+      "type": "group",
+      "fields": [
+        {
+          "placeholder": "Name",
+          "attribute": "data.armor.name"
+        },
+        {
+          "placeholder": "Text",
+          "type": "textArea",
+          "attribute": "data.armor.text"
+        }
+      ]
+    },
+    {
+      "title": "Equipment",
+      "type": "list",
+      "attribute": "data.items",
+      "form": {
+        "title": "Item",
+        "sections": [
+          {
+            "type": "group",
+            "fields": [
+              {
+                "title": "Name",
+                "attribute": "name"
+              },
+              {
+                "placeholder": "Text",
+                "type": "textArea",
+                "attribute": "text"
+              },
+              {
+                "title": "Quantity",
+                "type": "number",
+                "attribute": "quantity"
+              },
+              {
+                "title": "Active",
+                "type": "toggle",
+                "attribute": "active"
+              }
+            ]
+          },
+          {
+            "title": "Reference",
+            "type": "group",
+            "fields": [
+              {
+                "title": "Reference",
+                "type": "reference",
+                "attribute": "reference",
+                "attributeType": "Item"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

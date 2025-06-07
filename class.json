@@ -1,0 +1,294 @@
+[
+  {
+    "name": "Forgotten R\u014dnin",
+    "type": "class",
+    "description": "A masterless warrior with a haunted past, walking the line between honour and survival.",
+    "starting_stats": {
+      "Swiftness": "+2",
+      "Spirit": "-2",
+      "Vigor": "+2",
+      "Resilience": "+2"
+    },
+    "starting_equipment": [
+      "Worn katana (d8)",
+      "Traveling clothes",
+      "Letter of introduction",
+      "Straw hat",
+      "1d6x10 Ryo"
+    ],
+    "hp": "Resilience + d10",
+    "honour": "-1",
+    "virtues": "d2",
+    "tenets": "The Ronin's Creed",
+    "features": [
+      "Ronin\u2019s Resolve",
+      "Sword Master",
+      "Masterless",
+      "Bushi's Blade",
+      "Protector",
+      "Haunted Blade"
+    ]
+  },
+  {
+    "name": "Erudite Samurai",
+    "type": "class",
+    "description": "A warrior-scholar who wields both blade and book with equal skill.",
+    "starting_stats": {
+      "Swiftness": "-1",
+      "Spirit": "-1",
+      "Vigor": "+2",
+      "Resilience": "+1"
+    },
+    "starting_equipment": [
+      "Fine Katana (d10)",
+      "Wakizashi (d6)",
+      "Tier 2 Armour",
+      "Books and papers",
+      "3d6x10 Ryo"
+    ],
+    "hp": "Resilience + d8",
+    "honour": "+2",
+    "virtues": "d2",
+    "tenets": "Bushido",
+    "features": [
+      "Scholarly Training",
+      "Philosophy of War",
+      "Tactical Genius",
+      "Precise Strike",
+      "Intimidating Presence",
+      "Zen Focus"
+    ]
+  },
+  {
+    "name": "Drunken Monk",
+    "type": "class",
+    "description": "A staggering blend of martial prowess and mystical insight, unpredictable and dangerous.",
+    "starting_stats": {
+      "Swiftness": "+2",
+      "Spirit": "+2",
+      "Vigor": "+1",
+      "Resilience": "-2"
+    },
+    "starting_equipment": [
+      "Monk's robes and sandals",
+      "Gourd of sake",
+      "Brass knuckles (d4)",
+      "1d6x10 Ryo"
+    ],
+    "hp": "Resilience + d8",
+    "honour": "-1",
+    "virtues": "d4",
+    "tenets": "Noble Truths",
+    "features": [
+      "Drunken Fist",
+      "Five Finger Death Punch",
+      "Roadhouse",
+      "Flame Fist",
+      "Sake Style",
+      "Drunken Master"
+    ]
+  },
+  {
+    "name": "Corrupted Shinobi",
+    "type": "class",
+    "description": "A stealthy killer with no allegiance but their own, wielding dark arts and deadly poisons.",
+    "starting_stats": {
+      "Swiftness": "+2",
+      "Spirit": "+2",
+      "Vigor": "-1",
+      "Resilience": "+1"
+    },
+    "starting_equipment": [
+      "Dark clothing",
+      "Matched kusarigama (d6 melee/ranged)",
+      "10 Shuriken (d4)",
+      "Poison vial (6 uses)",
+      "2d6x10 Ryo"
+    ],
+    "hp": "Resilience + d8",
+    "honour": "-2",
+    "virtues": "d2",
+    "tenets": "The Unseen Virtues",
+    "features": [
+      "Corrupted Techniques",
+      "Poison Master",
+      "Smoke Screen",
+      "Betrayer's Blade",
+      "Shadow Step",
+      "Dark Illusion"
+    ]
+  },
+  {
+    "name": "Onmyoji",
+    "type": "class",
+    "description": "A spiritual conduit between the worlds of the living and the dead, feared and powerful.",
+    "starting_stats": {
+      "Swiftness": "-1",
+      "Spirit": "+3",
+      "Vigor": "+2",
+      "Resilience": "-1"
+    },
+    "starting_equipment": [
+      "Robes and talismans",
+      "Random Unseen and Shintai Texts",
+      "Kiseru (d4)",
+      "1d6x10 Ryo"
+    ],
+    "hp": "Resilience + d8",
+    "honour": "\u00b10",
+    "virtues": "d4",
+    "tenets": "The Rules of the Divine",
+    "features": [
+      "Divining Rod",
+      "Ofuda Talisman",
+      "Spirit Beacon",
+      "Shadow Binding",
+      "Text of Exorcism",
+      "Mirror of Reflection"
+    ]
+  },
+  {
+    "name": "Bakuto",
+    "type": "class",
+    "description": "A gambler and rogue who survives by wit, charm, and cunning\u2014not brute strength.",
+    "starting_stats": {
+      "Swiftness": "-2",
+      "Spirit": "+2",
+      "Vigor": "+2",
+      "Resilience": "-1"
+    },
+    "starting_equipment": [
+      "Flamboyant clothing",
+      "Tanto (d4)",
+      "Loaded dice and marked cards",
+      "3d6x10 Ryo"
+    ],
+    "hp": "Resilience + d10",
+    "honour": "+1",
+    "virtues": "d4",
+    "tenets": "The Gambler\u2019s Way",
+    "features": [
+      "Gambling Luck",
+      "Sucker Punch",
+      "Dirty Tricks",
+      "Sleight of Hand",
+      "Double Strike",
+      "Feint"
+    ]
+  },
+  {
+    "name": "Yamabushi",
+    "type": "class",
+    "description": "Mystic mountain ascetics wielding the raw spiritual power of nature.",
+    "starting_stats": {
+      "Swiftness": "+1",
+      "Spirit": "+2",
+      "Vigor": "-1",
+      "Resilience": "+1"
+    },
+    "starting_equipment": [
+      "Pom-pom adorned robes and sash",
+      "Bo staff (d6)",
+      "Random Unseen Text",
+      "1d6x10 Ryo"
+    ],
+    "hp": "Resilience + d8",
+    "honour": "+1",
+    "virtues": "d4",
+    "tenets": "The Yamabushi\u2019s Path",
+    "features": [
+      "Mountain's Resolve",
+      "Spiritual Martial Arts",
+      "Mountain's Fury",
+      "Ascetic's Wisdom",
+      "Divine Guidance",
+      "Mystic's Shield"
+    ]
+  },
+  {
+    "name": "Wild Dancer",
+    "type": "class",
+    "description": "A theatrical, lethal fusion of blade and gunplay\u2014a duelist of chaos and flair.",
+    "starting_stats": {
+      "Swiftness": "-1",
+      "Spirit": "+2",
+      "Vigor": "+2",
+      "Resilience": "-2"
+    },
+    "starting_equipment": [
+      "Flashy kimono",
+      "Katana (d8)",
+      "Tanegashima w/ Spirit+5 bullets (d8)",
+      "1d6x10 Ryo"
+    ],
+    "hp": "Resilience + d8",
+    "honour": "-1",
+    "virtues": "d2",
+    "tenets": "The Dancer\u2019s Code",
+    "features": [
+      "Untamed Ferocity",
+      "Two-Weapon Fighting",
+      "Dancing Defence",
+      "Shooting Star",
+      "Sword Dance",
+      "Wild Spirit"
+    ]
+  },
+  {
+    "name": "Reckless Sumo",
+    "type": "class",
+    "description": "Massive and unstoppable, the sumo charges through enemies like a living avalanche.",
+    "starting_stats": {
+      "Swiftness": "-2",
+      "Spirit": "-1",
+      "Vigor": "+3",
+      "Resilience": "+2"
+    },
+    "starting_equipment": [
+      "Sumo ceremonial mawashi",
+      "Big-ass iron club (d10)",
+      "1d6x10 Ryo"
+    ],
+    "hp": "Resilience + d12",
+    "honour": "-1",
+    "virtues": "d2",
+    "tenets": "The Sumo\u2019s Oath",
+    "features": [
+      "Body Avalanche",
+      "Iron Belly",
+      "Unshakable",
+      "Sumo Slam",
+      "Come At Me",
+      "Endure the Storm"
+    ]
+  },
+  {
+    "name": "Sword Saint",
+    "type": "class",
+    "description": "The pinnacle of martial perfection. Every strike is poetry. Every duel, a sermon.",
+    "starting_stats": {
+      "Swiftness": "+2",
+      "Spirit": "-1",
+      "Vigor": "+2",
+      "Resilience": "+1"
+    },
+    "starting_equipment": [
+      "Masterwork katana (d10)",
+      "Dragonfly-pinned kimono",
+      "Prayer beads",
+      "2d6x10 Ryo"
+    ],
+    "hp": "Resilience + d10",
+    "honour": "+2",
+    "virtues": "d2",
+    "tenets": "The Sword Saint\u2019s Discipline",
+    "features": [
+      "Iaijutsu Strike",
+      "Flawless Defense",
+      "Kata of the Five Forms",
+      "Zen Cut",
+      "Deadly Repose",
+      "Way of the Blade"
+    ]
+  }
+]

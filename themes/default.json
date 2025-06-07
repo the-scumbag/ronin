@@ -1,0 +1,68 @@
+{
+  "tintColor": "#58180D",
+  "primaryColor": "#9C2B1B",
+  "textColor": "#000000",
+  "dividerColor": "#cccccc",
+  "bgColor": "#ffffff",
+  "styles": {
+    "body": {
+      "font": "CallingCode-Regular",
+      "size": 15,
+    },
+    "label": {
+      "font": "CallingCode-Regular",
+      "color": "#58180D",
+      "size": 15
+    },
+    "title": {
+      "font": "AdhesiveNrSeven",
+      "color": "#000000",
+      "size": 40
+    },
+    "subtitle": {
+      "font": "Alegreya-Italic",
+      "size": 20
+    },
+    "section": {
+      "font": "AdhesiveNrSeven",
+      "color": "#000000",
+      "bgColor": "#FFE900",
+      "padding": [2, 6, 2, 6],
+      "size": 34
+    },
+    "heading": {
+      "font": "Chomsky",
+      "color": "#000000",
+    },
+    "heading1": {
+      "font": "Chomsky",
+      "color": "#000000",
+      "size": 36
+    },
+    "heading2": {
+      "font": "Chomsky",
+      "color": "#000000",
+      "size": 30,
+    },
+    "heading3": {
+      "font": "Chomsky",
+      "color": "#000000",
+      "size": 28
+    },
+    "heading4": {
+      "font": "Chomsky",
+      "color": "#000000",
+      "size": 24
+    },
+    "heading5": {
+      "font": "Chomsky",
+      "color": "#000000",
+      "size": 18
+    },
+    "heading6": {
+      "font": "Chomsky",
+      "color": "#000000",
+      "size": 16
+    }
+  }
+}

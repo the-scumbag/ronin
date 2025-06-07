@@ -1,0 +1,38 @@
+[
+  {
+    "entity": "Monster",
+    "params": [
+      {
+        "attribute": "source",
+        "title": "Monster.Source",
+        "dynamic": true
+      }
+    ]
+  },
+  {
+    "entity": "Item",
+    "filter": [
+      {
+        "attribute": "type",
+        "attributeType": "ItemType",
+        "title": "Item.Type"
+      },
+      {
+        "attribute": "source",
+        "title": "Item.Source",
+        "dynamic": true
+      }
+    ],
+    "group": [
+      {
+        "attribute": "type",
+        "attributeType": "ItemType",
+        "title": "Item.Type"
+      },
+      {
+        "attribute": "title",
+        "title": "Item.Name"
+      }
+    ]
+  }
+]

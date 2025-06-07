@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Oni",
+    "type": "monster",
+    "hp": "15",
+    "dr": "2",
+    "morale": "12",
+    "damage": "d10",
+    "description": "A hulking demonic creature with horns and fangs. Often serves as a boss or enforcer of the Yomi realm.",
+    "traits": [
+      "Brutal",
+      "Supernatural",
+      "Fear Aura"
+    ]
+  },
+  {
+    "name": "Bandit",
+    "type": "monster",
+    "hp": "6",
+    "dr": "0",
+    "morale": "8",
+    "damage": "d6",
+    "description": "Desperate criminals roaming the roads and forests of Kage no Shima.",
+    "traits": [
+      "Human",
+      "Greedy"
+    ]
+  },
+  {
+    "name": "Yuki-Onna",
+    "type": "monster",
+    "hp": "10",
+    "dr": "1",
+    "morale": "10",
+    "damage": "d6 + Freeze",
+    "description": "A ghostly woman of snow and sorrow. Her touch chills the soul.",
+    "traits": [
+      "Spirit",
+      "Cold",
+      "Charming"
+    ]
+  },
+  {
+    "name": "Skeleton R\u014dnin",
+    "type": "monster",
+    "hp": "8",
+    "dr": "1",
+    "morale": "9",
+    "damage": "d6",
+    "description": "Fallen warriors cursed to walk again. Their bones creak with vengeance.",
+    "traits": [
+      "Undead",
+      "Relentless"
+    ]
+  },
+  {
+    "name": "Tengu",
+    "type": "monster",
+    "hp": "12",
+    "dr": "2",
+    "morale": "11",
+    "damage": "d8",
+    "description": "Winged mountain spirits with long noses and martial prowess.",
+    "traits": [
+      "Mythic",
+      "Aerial",
+      "Prideful"
+    ]
+  },
+  {
+    "name": "Jorogumo",
+    "type": "monster",
+    "hp": "14",
+    "dr": "1",
+    "morale": "10",
+    "damage": "d8",
+    "description": "A spider demon that takes the form of a beautiful woman to lure prey.",
+    "traits": [
+      "Deceptive",
+      "Venomous",
+      "Shapechanger"
+    ]
+  },
+  {
+    "name": "Ryu",
+    "type": "monster",
+    "hp": "25",
+    "dr": "3",
+    "morale": "13",
+    "damage": "2d6",
+    "description": "A celestial dragon of immense power and wisdom. Rare and divine.",
+    "traits": [
+      "Legendary",
+      "Flying",
+      "Elemental"
+    ]
+  },
+  {
+    "name": "Blood Witch",
+    "type": "monster",
+    "hp": "18",
+    "dr": "2",
+    "morale": "12",
+    "damage": "d8 + Bleed",
+    "description": "A cursed sorceress who manipulates blood for forbidden spells.",
+    "traits": [
+      "Caster",
+      "Corrupted",
+      "Hexing"
+    ]
+  }
+]
